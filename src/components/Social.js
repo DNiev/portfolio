@@ -1,13 +1,18 @@
 import React from 'react';
-import {Image} from 'react-bootstrap';
+import {Image, Container} from 'react-bootstrap';
 
 const Social = () => {
     return (
-        <div>
-            <a href='https://www.linkedin.com/in/danny-nieves-web-dev/'>
-                <Image className= 'socialLink' src='https://imgur.com/BoXaJfS.png' />
+        <>
+        <Container className='socialBar'>
+            <a target='_blank' href='https://www.linkedin.com/in/danny-nieves-web-dev/'>
+                <Image className='socialLink' src='https://imgur.com/BoXaJfS.png' />
             </a>
-        </div>
+            <a target='_blank' href='https://github.com/DNiev'>
+                <Image className='socialLink' src='https://imgur.com/tTp34tX.png'/>
+            </a>
+        </Container>
+        </>
     )
 };
 

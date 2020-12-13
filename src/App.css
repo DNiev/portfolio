@@ -1,3 +1,9 @@
+.socialBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .socialLink {
   width: 50px;
 }
