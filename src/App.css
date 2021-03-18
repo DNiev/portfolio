@@ -1,3 +1,8 @@
+.home {
+  /* background-image: url("https://imgur.com/2q3G2xy.png"); */
+  background-size: 100% 100%;
+}
+
 .socialBar {
   display: flex;
   align-items: center;
@@ -6,4 +11,31 @@
 
 .socialLink {
   width: 50px;
+}
+
+.hero-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Exo 2";
+  font-size: 80px;
+}
+
+.hero-desc {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Exo 2";
+  font-size: 30px;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  font-family: "Exo 2";
+  font-size: 25px;
+}
+
+.about-me {
+  text-align: center;
+  font-family: "Exo 2";
 }
